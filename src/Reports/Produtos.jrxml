@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Produtos" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="78246744-8789-47c4-afd3-0e133eee6a41">
+	<property name="ireport.zoom" value="1.5"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString>
+		<![CDATA[select * from produto order by Cod;]]>
+	</queryString>
+	<field name="Cod" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="CodBarra" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="CodAlter" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Nome" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Descricao" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Grupo" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Marca" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="Tributacao" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="NCM" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="ANP" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="AVista_Venda" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="AVista_Lucro" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="AVista_Minimo" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="APrazo_Venda" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="APrazo_Lucro" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="APrazo_Minimo" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<frame>
+				<reportElement mode="Opaque" x="0" y="0" width="555" height="79" forecolor="#1644A0" backcolor="#000099" uuid="13a4a66a-c7e8-4b33-a602-3a5ffac8d91a"/>
+				<image>
+					<reportElement x="0" y="0" width="158" height="78" uuid="2f8c689a-fab9-4881-83f3-988def58376f"/>
+					<imageExpression><![CDATA["C:\\Users\\Anthony\\Desktop\\AFsistemas\\src\\img\\logo2.png"]]></imageExpression>
+				</image>
+				<staticText>
+					<reportElement x="158" y="20" width="200" height="47" forecolor="#FFFFFF" uuid="8cb13cea-a997-4988-94d0-44002267d51e"/>
+					<textElement>
+						<font fontName="Verdana" size="38"/>
+					</textElement>
+					<text><![CDATA[Sistemas]]></text>
+				</staticText>
+				<textField pattern="dd/MM/yyyy">
+					<reportElement x="455" y="0" width="100" height="20" forecolor="#FFFFFF" uuid="a9bd94c1-de55-4698-a823-7c1613872f33"/>
+					<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="45" splitType="Stretch">
+			<staticText>
+				<reportElement x="196" y="18" width="162" height="20" uuid="8bb66d37-c7f0-4a9a-8134-55d98d9f108f"/>
+				<textElement>
+					<font fontName="Verdana" size="14"/>
+				</textElement>
+				<text><![CDATA[Relatorio de Produtos]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="23" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="29" height="20" uuid="0f3b3950-00b7-4b9e-aff6-378e6fbced36"/>
+				<text><![CDATA[Cod]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="29" y="0" width="69" height="20" uuid="73378b0c-46eb-4758-8878-e2f1acc27bed"/>
+				<text><![CDATA[CodBarra]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="0" width="125" height="20" uuid="9f8f9caf-34e8-432c-bf7b-b4b6f12d585b"/>
+				<text><![CDATA[Nome]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="442" y="0" width="55" height="20" uuid="a6345f91-750f-4531-93b9-8921c11bb033"/>
+				<text><![CDATA[Á Vista]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="497" y="0" width="58" height="20" uuid="e6c56ffd-1e4f-403e-beb0-51cd50c23dea"/>
+				<text><![CDATA[Á Prazo]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="364" y="3" width="78" height="20" uuid="cb74ec7b-7868-42d8-b650-e72261fb3947"/>
+				<text><![CDATA[Marca]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="258" y="3" width="100" height="20" uuid="3817a0b2-1f2e-407d-8fee-063df36e1ca7"/>
+				<text><![CDATA[Descrição]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="22" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="29" height="20" uuid="d3765c79-f805-48ab-8fbd-eb674e15fafd"/>
+				<textElement>
+					<font fontName="Verdana" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Cod}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="29" y="2" width="69" height="18" uuid="2dafad7e-028c-4d71-ae47-b44ea7e89cc6"/>
+				<textElement>
+					<font fontName="Verdana" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{CodBarra}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="110" y="0" width="125" height="20" uuid="883882bc-7918-4f4d-b940-e33bd498d49d"/>
+				<textElement>
+					<font fontName="Verdana" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Nome}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="442" y="0" width="52" height="20" uuid="4217ecf5-1ea0-46f4-8eb9-0705a806db21"/>
+				<textElement>
+					<font fontName="Verdana" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{AVista_Venda}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="497" y="0" width="58" height="20" uuid="253badbc-68a4-4db9-a480-59917507aab5"/>
+				<textElement>
+					<font fontName="Verdana" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{APrazo_Venda}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="364" y="2" width="78" height="20" uuid="4b11f786-fafb-44d0-878a-aad4bea65cce"/>
+				<textElement>
+					<font fontName="Verdana" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Marca}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="258" y="0" width="100" height="20" uuid="8ed1c911-3d92-47aa-a0b0-958db4909ab3"/>
+				<textElement>
+					<font fontName="Verdana" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{Descricao}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch">
+			<textField>
+				<reportElement x="455" y="0" width="100" height="20" uuid="181516e9-d9d4-4df6-bd93-ddd457ff4347"/>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

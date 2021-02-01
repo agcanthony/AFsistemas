@@ -1,0 +1,2122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="debugGraphicsOptions" type="int" value="-1"/>
+        <Property name="doubleBuffered" type="boolean" value="false"/>
+        <Property name="focusCycleRoot" type="boolean" value="true"/>
+        <Property name="requestFocusEnabled" type="boolean" value="false"/>
+        <Property name="verifyInputWhenFocusTarget" type="boolean" value="false"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel12" alignment="0" max="32767" attributes="0"/>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                  <Component id="jPanel0" min="-2" pref="70" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jPanel3" alignment="0" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jtext" min="-2" pref="1087" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jPanel12" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jtext" min="-2" pref="45" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                          <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jPanel0" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="66" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel0">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="f5" green="f5" red="f5" type="rgb"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jButton1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="jButton6" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jButton2" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLayeredPane2" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButton1" min="-2" pref="60" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jButton6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="jLayeredPane2" alignment="0" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JLayeredPane" name="jLayeredPane2">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="autoscrolls" type="boolean" value="true"/>
+                <Property name="name" type="java.lang.String" value="" noResource="true"/>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jPanel5" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jPanel5" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="jPanel5">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                    </Property>
+                    <Property name="focusable" type="boolean" value="false"/>
+                  </Properties>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+                                      <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jButton8" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                                      <Component id="jButton11" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="Painel_Preco" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="Painel_Geral" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace pref="23" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jButton4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jButton5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jButton8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jButton11" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Component id="Painel_Geral" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Painel_Preco" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="javax.swing.JPanel" name="Painel_Geral">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                        </Property>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                            <TitledBorder title="Geral">
+                              <Font PropertyName="font" name="Verdana" size="14" style="0"/>
+                            </TitledBorder>
+                          </Border>
+                        </Property>
+                        <Property name="doubleBuffered" type="boolean" value="false"/>
+                        <Property name="focusCycleRoot" type="boolean" value="true"/>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Verdana" size="14" style="0"/>
+                        </Property>
+                        <Property name="inheritsPopupMenu" type="boolean" value="true"/>
+                      </Properties>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                                              <Component id="Codigo" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="Marca" alignment="1" min="-2" pref="87" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                                          <Component id="Tributacao" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="Descricao" min="-2" max="-2" attributes="0"/>
+                                              <Component id="Nome" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                                  <Component id="Grupo" min="-2" pref="62" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="Grupo_texto" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="Marca_selecao" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="Nome_texto" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="Descricao_texto" alignment="0" max="32767" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="Cod_texto" min="-2" pref="70" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                                  <Component id="CodBarra" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="CodBarra_texto" min="-2" pref="395" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                                                  <Component id="CodAlter" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                  <Component id="CodAlter_texto" min="-2" pref="202" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="Tributacao_selecao" min="-2" pref="181" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="NCM" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="NCM_selecao" min="-2" pref="201" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                                                  <Component id="ANP" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="ANP_selecao" min="-2" pref="176" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace pref="24" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="CodAlter" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="CodAlter_texto" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                                      <Component id="Codigo" alignment="3" max="32767" attributes="0"/>
+                                      <Component id="CodBarra" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="CodBarra_texto" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Cod_texto" alignment="3" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Nome_texto" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                                      <Component id="Nome" alignment="3" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Descricao" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                                      <Component id="Descricao_texto" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="Grupo" min="-2" pref="35" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                                          <Component id="Grupo_texto" min="-2" pref="30" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="Marca" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Marca_selecao" alignment="3" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                                          <Component id="Tributacao" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="3" attributes="0">
+                                                      <Component id="ANP" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="ANP_selecao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="103" groupAlignment="3" attributes="0">
+                                                  <Component id="NCM" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="Tributacao_selecao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="NCM_selecao" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="Codigo">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Verdana" size="18" style="0"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Codigo"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="Nome">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Verdana" size="18" style="0"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Nome"/>
+                            <Property name="toolTipText" type="java.lang.String" value="Nome Completo do Cliente."/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Descricao_texto">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Verdana" size="18" style="0"/>
+                            </Property>
+                            <Property name="toolTipText" type="java.lang.String" value="Nome Completo do Cliente."/>
+                            <Property name="autoscrolls" type="boolean" value="false"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="CodAlter">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Verdana" size="18" style="0"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="COD"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JFormattedTextField" name="CodAlter_texto">
+                          <Properties>
+                            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                              <Format subtype="0" type="0"/>
+                            </Property>
+                            <Property name="autoscrolls" type="boolean" value="false"/>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Verdana" size="18" style="0"/>
+                            </Property>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="CodAlter_textoKeyReleased"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="CodBarra">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Verdana" size="18" style="0"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="COD de Barra "/>
+                            <Property name="toolTipText" type="java.lang.String" value="CPF OU CNPJ"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="CodBarra_texto">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Verdana" size="18" style="0"/>
+                            </Property>
+                            <Property name="toolTipText" type="java.lang.String" value="CPF OU CNPJ"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CodBarra_textoActionPerformed"/>
+                            <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="CodBarra_textoKeyReleased"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="Descricao">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Verdana" size="18" style="0"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Descri&#xe7;&#xe3;o"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Nome_texto">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Verdana" size="18" style="0"/>
+                            </Property>
+                            <Property name="toolTipText" type="java.lang.String" value="Nome Completo do Cliente."/>
+                            <Property name="autoscrolls" type="boolean" value="false"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="Marca">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Verdana" size="18" style="0"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Marca"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JFormattedTextField" name="Cod_texto">
+                          <Properties>
+                            <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+                              <Format format="00000" subtype="-1" type="0"/>
+                            </Property>
+                            <Property name="enabled" type="boolean" value="false"/>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Verdana" size="18" style="0"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="Grupo">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Verdana" size="18" style="0"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Grupo"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JComboBox" name="Marca_selecao">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
+                            <Property name="editable" type="boolean" value="true"/>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Verdana" size="18" style="0"/>
+                            </Property>
+                            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                              <StringArray count="0"/>
+                            </Property>
+                          </Properties>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                          </AuxValues>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="NCM">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Verdana" size="18" style="0"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="NCM"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JComboBox" name="Tributacao_selecao">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Verdana" size="18" style="0"/>
+                            </Property>
+                            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                              <StringArray count="4">
+                                <StringItem index="0" value=""/>
+                                <StringItem index="1" value="Substitui&#xe7;&#xe3;o Tributaria"/>
+                                <StringItem index="2" value="N&#xe3;o tributado"/>
+                                <StringItem index="3" value="Tributado"/>
+                              </StringArray>
+                            </Property>
+                            <Property name="lightWeightPopupEnabled" type="boolean" value="false"/>
+                          </Properties>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                          </AuxValues>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="Tributacao">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Verdana" size="18" style="0"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Tributa&#xe7;&#xe3;o"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JComboBox" name="NCM_selecao">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
+                            <Property name="editable" type="boolean" value="true"/>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Verdana" size="18" style="0"/>
+                            </Property>
+                            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                              <StringArray count="0"/>
+                            </Property>
+                          </Properties>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                          </AuxValues>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="ANP">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Verdana" size="18" style="0"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="ANP"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JComboBox" name="ANP_selecao">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Verdana" size="18" style="0"/>
+                            </Property>
+                            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                              <StringArray count="905">
+                                <StringItem index="0" value=""/>
+                                <StringItem index="1" value="110203073"/>
+                                <StringItem index="2" value="110204001"/>
+                                <StringItem index="3" value="110204002"/>
+                                <StringItem index="4" value="140101027"/>
+                                <StringItem index="5" value="140101026"/>
+                                <StringItem index="6" value="740101005"/>
+                                <StringItem index="7" value="740101004"/>
+                                <StringItem index="8" value="740101001"/>
+                                <StringItem index="9" value="740101006"/>
+                                <StringItem index="10" value="740101002"/>
+                                <StringItem index="11" value="110203083"/>
+                                <StringItem index="12" value="910101001"/>
+                                <StringItem index="13" value="110103001"/>
+                                <StringItem index="14" value="330101001"/>
+                                <StringItem index="15" value="110203091"/>
+                                <StringItem index="16" value="120204001"/>
+                                <StringItem index="17" value="110106001"/>
+                                <StringItem index="18" value="120206001"/>
+                                <StringItem index="19" value="110101001"/>
+                                <StringItem index="20" value="110101042"/>
+                                <StringItem index="21" value="810201001"/>
+                                <StringItem index="22" value="110201067"/>
+                                <StringItem index="23" value="110204003"/>
+                                <StringItem index="24" value="330201005"/>
+                                <StringItem index="25" value="330201006"/>
+                                <StringItem index="26" value="330201004"/>
+                                <StringItem index="27" value="110105001"/>
+                                <StringItem index="28" value="110203072"/>
+                                <StringItem index="29" value="110203001"/>
+                                <StringItem index="30" value="110201001"/>
+                                <StringItem index="31" value="110101002"/>
+                                <StringItem index="32" value="110203002"/>
+                                <StringItem index="33" value="120205010"/>
+                                <StringItem index="34" value="110203003"/>
+                                <StringItem index="35" value="110204004"/>
+                                <StringItem index="36" value="110204005"/>
+                                <StringItem index="37" value="110204006"/>
+                                <StringItem index="38" value="110204007"/>
+                                <StringItem index="39" value="110204008"/>
+                                <StringItem index="40" value="110204009"/>
+                                <StringItem index="41" value="110204010"/>
+                                <StringItem index="42" value="110204011"/>
+                                <StringItem index="43" value="110105027"/>
+                                <StringItem index="44" value="110103003"/>
+                                <StringItem index="45" value="110103002"/>
+                                <StringItem index="46" value="110105002"/>
+                                <StringItem index="47" value="110205001"/>
+                                <StringItem index="48" value="120203002"/>
+                                <StringItem index="49" value="120205001"/>
+                                <StringItem index="50" value="110203004"/>
+                                <StringItem index="51" value="120203001"/>
+                                <StringItem index="52" value="530102001"/>
+                                <StringItem index="53" value="530101002"/>
+                                <StringItem index="54" value="110206023"/>
+                                <StringItem index="55" value="110108001"/>
+                                <StringItem index="56" value="110105017"/>
+                                <StringItem index="57" value="110206019"/>
+                                <StringItem index="58" value="110205023"/>
+                                <StringItem index="59" value="110201002"/>
+                                <StringItem index="60" value="120202001"/>
+                                <StringItem index="61" value="110101003"/>
+                                <StringItem index="62" value="110101004"/>
+                                <StringItem index="63" value="110103004"/>
+                                <StringItem index="64" value="110103005"/>
+                                <StringItem index="65" value="110207010"/>
+                                <StringItem index="66" value="110203097"/>
+                                <StringItem index="67" value="110205037"/>
+                                <StringItem index="68" value="110101005"/>
+                                <StringItem index="69" value="110203096"/>
+                                <StringItem index="70" value="110204012"/>
+                                <StringItem index="71" value="110204013"/>
+                                <StringItem index="72" value="110204014"/>
+                                <StringItem index="73" value="110102001"/>
+                                <StringItem index="74" value="120207003"/>
+                                <StringItem index="75" value="110201003"/>
+                                <StringItem index="76" value="110201004"/>
+                                <StringItem index="77" value="110201005"/>
+                                <StringItem index="78" value="110201006"/>
+                                <StringItem index="79" value="110206001"/>
+                                <StringItem index="80" value="110205002"/>
+                                <StringItem index="81" value="110203005"/>
+                                <StringItem index="82" value="110205003"/>
+                                <StringItem index="83" value="330201001"/>
+                                <StringItem index="84" value="110206002"/>
+                                <StringItem index="85" value="110101006"/>
+                                <StringItem index="86" value="110101007"/>
+                                <StringItem index="87" value="110101038"/>
+                                <StringItem index="88" value="120205002"/>
+                                <StringItem index="89" value="820101001"/>
+                                <StringItem index="90" value="820101010"/>
+                                <StringItem index="91" value="110206003"/>
+                                <StringItem index="92" value="110201007"/>
+                                <StringItem index="93" value="120201001"/>
+                                <StringItem index="94" value="110201008"/>
+                                <StringItem index="95" value="110103017"/>
+                                <StringItem index="96" value="110205004"/>
+                                <StringItem index="97" value="110203077"/>
+                                <StringItem index="98" value="110101008"/>
+                                <StringItem index="99" value="110203006"/>
+                                <StringItem index="100" value="110203007"/>
+                                <StringItem index="101" value="110201009"/>
+                                <StringItem index="102" value="110203008"/>
+                                <StringItem index="103" value="110203009"/>
+                                <StringItem index="104" value="110203010"/>
+                                <StringItem index="105" value="120203004"/>
+                                <StringItem index="106" value="110206004"/>
+                                <StringItem index="107" value="610101009"/>
+                                <StringItem index="108" value="610801001"/>
+                                <StringItem index="109" value="120205003"/>
+                                <StringItem index="110" value="110205005"/>
+                                <StringItem index="111" value="610811001"/>
+                                <StringItem index="112" value="610812001"/>
+                                <StringItem index="113" value="610803003"/>
+                                <StringItem index="114" value="610805001"/>
+                                <StringItem index="115" value="610806003"/>
+                                <StringItem index="116" value="110203092"/>
+                                <StringItem index="117" value="110204015"/>
+                                <StringItem index="118" value="210202003"/>
+                                <StringItem index="119" value="210202001"/>
+                                <StringItem index="120" value="210202002"/>
+                                <StringItem index="121" value="110105018"/>
+                                <StringItem index="122" value="110203011"/>
+                                <StringItem index="123" value="110203012"/>
+                                <StringItem index="124" value="110101009"/>
+                                <StringItem index="125" value="110104001"/>
+                                <StringItem index="126" value="110104006"/>
+                                <StringItem index="127" value="110106010"/>
+                                <StringItem index="128" value="610802001"/>
+                                <StringItem index="129" value="610802002"/>
+                                <StringItem index="130" value="110202007"/>
+                                <StringItem index="131" value="110106002"/>
+                                <StringItem index="132" value="110111002"/>
+                                <StringItem index="133" value="110103006"/>
+                                <StringItem index="134" value="110105003"/>
+                                <StringItem index="135" value="110201010"/>
+                                <StringItem index="136" value="110201011"/>
+                                <StringItem index="137" value="110201064"/>
+                                <StringItem index="138" value="110201012"/>
+                                <StringItem index="139" value="110101010"/>
+                                <StringItem index="140" value="110101011"/>
+                                <StringItem index="141" value="110108002"/>
+                                <StringItem index="142" value="110107001"/>
+                                <StringItem index="143" value="120202002"/>
+                                <StringItem index="144" value="110202011"/>
+                                <StringItem index="145" value="110106003"/>
+                                <StringItem index="146" value="110201066"/>
+                                <StringItem index="147" value="110108003"/>
+                                <StringItem index="148" value="110203085"/>
+                                <StringItem index="149" value="110201013"/>
+                                <StringItem index="150" value="110207001"/>
+                                <StringItem index="151" value="110205034"/>
+                                <StringItem index="152" value="110105023"/>
+                                <StringItem index="153" value="110101012"/>
+                                <StringItem index="154" value="110205031"/>
+                                <StringItem index="155" value="110201014"/>
+                                <StringItem index="156" value="620501002"/>
+                                <StringItem index="157" value="620501001"/>
+                                <StringItem index="158" value="610101005"/>
+                                <StringItem index="159" value="610101006"/>
+                                <StringItem index="160" value="530101001"/>
+                                <StringItem index="161" value="530101020"/>
+                                <StringItem index="162" value="530101018"/>
+                                <StringItem index="163" value="110205006"/>
+                                <StringItem index="164" value="110201015"/>
+                                <StringItem index="165" value="110203013"/>
+                                <StringItem index="166" value="110202001"/>
+                                <StringItem index="167" value="120104001"/>
+                                <StringItem index="168" value="120102001"/>
+                                <StringItem index="169" value="120104002"/>
+                                <StringItem index="170" value="120205009"/>
+                                <StringItem index="171" value="610804001"/>
+                                <StringItem index="172" value="540101002"/>
+                                <StringItem index="173" value="540101001"/>
+                                <StringItem index="174" value="110107002"/>
+                                <StringItem index="175" value="610806006"/>
+                                <StringItem index="176" value="610806007"/>
+                                <StringItem index="177" value="610806008"/>
+                                <StringItem index="178" value="610806009"/>
+                                <StringItem index="179" value="620601003"/>
+                                <StringItem index="180" value="110201016"/>
+                                <StringItem index="181" value="110101013"/>
+                                <StringItem index="182" value="120207001"/>
+                                <StringItem index="183" value="110206020"/>
+                                <StringItem index="184" value="110104008"/>
+                                <StringItem index="185" value="110201017"/>
+                                <StringItem index="186" value="110108004"/>
+                                <StringItem index="187" value="110201018"/>
+                                <StringItem index="188" value="330201007"/>
+                                <StringItem index="189" value="110205007"/>
+                                <StringItem index="190" value="110203086"/>
+                                <StringItem index="191" value="110205008"/>
+                                <StringItem index="192" value="340101002"/>
+                                <StringItem index="193" value="130202002"/>
+                                <StringItem index="194" value="430101002"/>
+                                <StringItem index="195" value="130202003"/>
+                                <StringItem index="196" value="560101002"/>
+                                <StringItem index="197" value="130202004"/>
+                                <StringItem index="198" value="820101032"/>
+                                <StringItem index="199" value="820101026"/>
+                                <StringItem index="200" value="820101027"/>
+                                <StringItem index="201" value="820101004"/>
+                                <StringItem index="202" value="820101005"/>
+                                <StringItem index="203" value="820101022"/>
+                                <StringItem index="204" value="820101031"/>
+                                <StringItem index="205" value="820101030"/>
+                                <StringItem index="206" value="820101014"/>
+                                <StringItem index="207" value="820101006"/>
+                                <StringItem index="208" value="820101016"/>
+                                <StringItem index="209" value="820101015"/>
+                                <StringItem index="210" value="820101025"/>
+                                <StringItem index="211" value="820101017"/>
+                                <StringItem index="212" value="820101018"/>
+                                <StringItem index="213" value="820101019"/>
+                                <StringItem index="214" value="820101020"/>
+                                <StringItem index="215" value="820101021"/>
+                                <StringItem index="216" value="330101003"/>
+                                <StringItem index="217" value="130202006"/>
+                                <StringItem index="218" value="110203014"/>
+                                <StringItem index="219" value="420201001"/>
+                                <StringItem index="220" value="420201003"/>
+                                <StringItem index="221" value="120204010"/>
+                                <StringItem index="222" value="110103007"/>
+                                <StringItem index="223" value="110204017"/>
+                                <StringItem index="224" value="110204051"/>
+                                <StringItem index="225" value="110204018"/>
+                                <StringItem index="226" value="110205035"/>
+                                <StringItem index="227" value="110205022"/>
+                                <StringItem index="228" value="110203069"/>
+                                <StringItem index="229" value="110203015"/>
+                                <StringItem index="230" value="110203104"/>
+                                <StringItem index="231" value="610903001"/>
+                                <StringItem index="232" value="610903002"/>
+                                <StringItem index="233" value="110206005"/>
+                                <StringItem index="234" value="110203016"/>
+                                <StringItem index="235" value="110203017"/>
+                                <StringItem index="236" value="110203018"/>
+                                <StringItem index="237" value="110203088"/>
+                                <StringItem index="238" value="110203019"/>
+                                <StringItem index="239" value="530101003"/>
+                                <StringItem index="240" value="530101019"/>
+                                <StringItem index="241" value="110101014"/>
+                                <StringItem index="242" value="620101002"/>
+                                <StringItem index="243" value="720101001"/>
+                                <StringItem index="244" value="720101002"/>
+                                <StringItem index="245" value="120205004"/>
+                                <StringItem index="246" value="110203079"/>
+                                <StringItem index="247" value="110203020"/>
+                                <StringItem index="248" value="110201019"/>
+                                <StringItem index="249" value="110203021"/>
+                                <StringItem index="250" value="110108005"/>
+                                <StringItem index="251" value="110101015"/>
+                                <StringItem index="252" value="110104002"/>
+                                <StringItem index="253" value="110101016"/>
+                                <StringItem index="254" value="110206025"/>
+                                <StringItem index="255" value="120203007"/>
+                                <StringItem index="256" value="620101007"/>
+                                <StringItem index="257" value="140102001"/>
+                                <StringItem index="258" value="110105004"/>
+                                <StringItem index="259" value="110107003"/>
+                                <StringItem index="260" value="110203095"/>
+                                <StringItem index="261" value="210301001"/>
+                                <StringItem index="262" value="810102001"/>
+                                <StringItem index="263" value="810102004"/>
+                                <StringItem index="264" value="810102002"/>
+                                <StringItem index="265" value="130201002"/>
+                                <StringItem index="266" value="810102003"/>
+                                <StringItem index="267" value="810101002"/>
+                                <StringItem index="268" value="810101001"/>
+                                <StringItem index="269" value="810101003"/>
+                                <StringItem index="270" value="210301002"/>
+                                <StringItem index="271" value="330201010"/>
+                                <StringItem index="272" value="611003001"/>
+                                <StringItem index="273" value="611003002"/>
+                                <StringItem index="274" value="611003003"/>
+                                <StringItem index="275" value="110204016"/>
+                                <StringItem index="276" value="110105005"/>
+                                <StringItem index="277" value="110105006"/>
+                                <StringItem index="278" value="110105007"/>
+                                <StringItem index="279" value="110104003"/>
+                                <StringItem index="280" value="610904001"/>
+                                <StringItem index="281" value="110206006"/>
+                                <StringItem index="282" value="110206007"/>
+                                <StringItem index="283" value="110203022"/>
+                                <StringItem index="284" value="110204019"/>
+                                <StringItem index="285" value="110206008"/>
+                                <StringItem index="286" value="110206009"/>
+                                <StringItem index="287" value="110101043"/>
+                                <StringItem index="288" value="110201020"/>
+                                <StringItem index="289" value="110104009"/>
+                                <StringItem index="290" value="110203023"/>
+                                <StringItem index="291" value="110101017"/>
+                                <StringItem index="292" value="110101018"/>
+                                <StringItem index="293" value="210302004"/>
+                                <StringItem index="294" value="210101001"/>
+                                <StringItem index="295" value="210302003"/>
+                                <StringItem index="296" value="210302002"/>
+                                <StringItem index="297" value="210204001"/>
+                                <StringItem index="298" value="220101003"/>
+                                <StringItem index="299" value="220101004"/>
+                                <StringItem index="300" value="220101002"/>
+                                <StringItem index="301" value="220101001"/>
+                                <StringItem index="302" value="220101005"/>
+                                <StringItem index="303" value="220101006"/>
+                                <StringItem index="304" value="130202001"/>
+                                <StringItem index="305" value="130202005"/>
+                                <StringItem index="306" value="520101001"/>
+                                <StringItem index="307" value="320101001"/>
+                                <StringItem index="308" value="320101003"/>
+                                <StringItem index="309" value="320101002"/>
+                                <StringItem index="310" value="320102002"/>
+                                <StringItem index="311" value="320102001"/>
+                                <StringItem index="312" value="320102004"/>
+                                <StringItem index="313" value="320102003"/>
+                                <StringItem index="314" value="320201001"/>
+                                <StringItem index="315" value="320201002"/>
+                                <StringItem index="316" value="320103001"/>
+                                <StringItem index="317" value="220102001"/>
+                                <StringItem index="318" value="320301002"/>
+                                <StringItem index="319" value="110204020"/>
+                                <StringItem index="320" value="110203024"/>
+                                <StringItem index="321" value="120205012"/>
+                                <StringItem index="322" value="110207002"/>
+                                <StringItem index="323" value="110203087"/>
+                                <StringItem index="324" value="730101002"/>
+                                <StringItem index="325" value="210203001"/>
+                                <StringItem index="326" value="210203002"/>
+                                <StringItem index="327" value="110104005"/>
+                                <StringItem index="328" value="140101023"/>
+                                <StringItem index="329" value="140101024"/>
+                                <StringItem index="330" value="140101025"/>
+                                <StringItem index="331" value="650101004"/>
+                                <StringItem index="332" value="650101003"/>
+                                <StringItem index="333" value="650101001"/>
+                                <StringItem index="334" value="110207003"/>
+                                <StringItem index="335" value="110201021"/>
+                                <StringItem index="336" value="110103013"/>
+                                <StringItem index="337" value="110201022"/>
+                                <StringItem index="338" value="110203025"/>
+                                <StringItem index="339" value="110203026"/>
+                                <StringItem index="340" value="110206011"/>
+                                <StringItem index="341" value="110206010"/>
+                                <StringItem index="342" value="110203027"/>
+                                <StringItem index="343" value="110203028"/>
+                                <StringItem index="344" value="330101008"/>
+                                <StringItem index="345" value="330101002"/>
+                                <StringItem index="346" value="330101009"/>
+                                <StringItem index="347" value="110202009"/>
+                                <StringItem index="348" value="110201068"/>
+                                <StringItem index="349" value="620101001"/>
+                                <StringItem index="350" value="610201001"/>
+                                <StringItem index="351" value="610201002"/>
+                                <StringItem index="352" value="610201003"/>
+                                <StringItem index="353" value="710101001"/>
+                                <StringItem index="354" value="110203074"/>
+                                <StringItem index="355" value="610808001"/>
+                                <StringItem index="356" value="610808002"/>
+                                <StringItem index="357" value="110201023"/>
+                                <StringItem index="358" value="110103008"/>
+                                <StringItem index="359" value="110203029"/>
+                                <StringItem index="360" value="120205005"/>
+                                <StringItem index="361" value="110204021"/>
+                                <StringItem index="362" value="110204022"/>
+                                <StringItem index="363" value="110204023"/>
+                                <StringItem index="364" value="620101004"/>
+                                <StringItem index="365" value="620101005"/>
+                                <StringItem index="366" value="330101010"/>
+                                <StringItem index="367" value="110202002"/>
+                                <StringItem index="368" value="110202003"/>
+                                <StringItem index="369" value="110207004"/>
+                                <StringItem index="370" value="110101046"/>
+                                <StringItem index="371" value="110204024"/>
+                                <StringItem index="372" value="110113001"/>
+                                <StringItem index="373" value="110105015"/>
+                                <StringItem index="374" value="110101019"/>
+                                <StringItem index="375" value="110203098"/>
+                                <StringItem index="376" value="110103015"/>
+                                <StringItem index="377" value="110205025"/>
+                                <StringItem index="378" value="110204025"/>
+                                <StringItem index="379" value="110204026"/>
+                                <StringItem index="380" value="110204027"/>
+                                <StringItem index="381" value="120204009"/>
+                                <StringItem index="382" value="110205026"/>
+                                <StringItem index="383" value="110204028"/>
+                                <StringItem index="384" value="110204029"/>
+                                <StringItem index="385" value="110203080"/>
+                                <StringItem index="386" value="120207004"/>
+                                <StringItem index="387" value="110203030"/>
+                                <StringItem index="388" value="110105025"/>
+                                <StringItem index="389" value="110203031"/>
+                                <StringItem index="390" value="110203084"/>
+                                <StringItem index="391" value="110203032"/>
+                                <StringItem index="392" value="110204030"/>
+                                <StringItem index="393" value="110205009"/>
+                                <StringItem index="394" value="110104004"/>
+                                <StringItem index="395" value="110201024"/>
+                                <StringItem index="396" value="110201025"/>
+                                <StringItem index="397" value="110201026"/>
+                                <StringItem index="398" value="110201027"/>
+                                <StringItem index="399" value="110201028"/>
+                                <StringItem index="400" value="110201029"/>
+                                <StringItem index="401" value="110201030"/>
+                                <StringItem index="402" value="110205036"/>
+                                <StringItem index="403" value="110207005"/>
+                                <StringItem index="404" value="110204031"/>
+                                <StringItem index="405" value="110207006"/>
+                                <StringItem index="406" value="110201031"/>
+                                <StringItem index="407" value="110201032"/>
+                                <StringItem index="408" value="110201033"/>
+                                <StringItem index="409" value="120204002"/>
+                                <StringItem index="410" value="110101020"/>
+                                <StringItem index="411" value="120203006"/>
+                                <StringItem index="412" value="220102002"/>
+                                <StringItem index="413" value="110105008"/>
+                                <StringItem index="414" value="110203033"/>
+                                <StringItem index="415" value="110105009"/>
+                                <StringItem index="416" value="110201034"/>
+                                <StringItem index="417" value="110204053"/>
+                                <StringItem index="418" value="110203034"/>
+                                <StringItem index="419" value="110203035"/>
+                                <StringItem index="420" value="640201001"/>
+                                <StringItem index="421" value="120205011"/>
+                                <StringItem index="422" value="110101021"/>
+                                <StringItem index="423" value="120103001"/>
+                                <StringItem index="424" value="110203036"/>
+                                <StringItem index="425" value="120204003"/>
+                                <StringItem index="426" value="110201035"/>
+                                <StringItem index="427" value="110204032"/>
+                                <StringItem index="428" value="110101022"/>
+                                <StringItem index="429" value="110201036"/>
+                                <StringItem index="430" value="110101023"/>
+                                <StringItem index="431" value="110101024"/>
+                                <StringItem index="432" value="110101025"/>
+                                <StringItem index="433" value="110101039"/>
+                                <StringItem index="434" value="110204033"/>
+                                <StringItem index="435" value="120207002"/>
+                                <StringItem index="436" value="110202004"/>
+                                <StringItem index="437" value="110202005"/>
+                                <StringItem index="438" value="110201069"/>
+                                <StringItem index="439" value="110203037"/>
+                                <StringItem index="440" value="110201037"/>
+                                <StringItem index="441" value="110203078"/>
+                                <StringItem index="442" value="120203005"/>
+                                <StringItem index="443" value="110201038"/>
+                                <StringItem index="444" value="110201039"/>
+                                <StringItem index="445" value="120101001"/>
+                                <StringItem index="446" value="110201040"/>
+                                <StringItem index="447" value="110201041"/>
+                                <StringItem index="448" value="740101007"/>
+                                <StringItem index="449" value="640101001"/>
+                                <StringItem index="450" value="110205027"/>
+                                <StringItem index="451" value="110103009"/>
+                                <StringItem index="452" value="110103010"/>
+                                <StringItem index="453" value="110205010"/>
+                                <StringItem index="454" value="120203008"/>
+                                <StringItem index="455" value="110301001"/>
+                                <StringItem index="456" value="110208001"/>
+                                <StringItem index="457" value="110203038"/>
+                                <StringItem index="458" value="110203089"/>
+                                <StringItem index="459" value="110201042"/>
+                                <StringItem index="460" value="110101026"/>
+                                <StringItem index="461" value="620502001"/>
+                                <StringItem index="462" value="110203039"/>
+                                <StringItem index="463" value="110202008"/>
+                                <StringItem index="464" value="110204034"/>
+                                <StringItem index="465" value="110207009"/>
+                                <StringItem index="466" value="611201002"/>
+                                <StringItem index="467" value="611201003"/>
+                                <StringItem index="468" value="611201001"/>
+                                <StringItem index="469" value="610803002"/>
+                                <StringItem index="470" value="110110001"/>
+                                <StringItem index="471" value="310102001"/>
+                                <StringItem index="472" value="310103001"/>
+                                <StringItem index="473" value="310101001"/>
+                                <StringItem index="474" value="611207003"/>
+                                <StringItem index="475" value="110101027"/>
+                                <StringItem index="476" value="110205011"/>
+                                <StringItem index="477" value="110201062"/>
+                                <StringItem index="478" value="110203040"/>
+                                <StringItem index="479" value="610801002"/>
+                                <StringItem index="480" value="610801004"/>
+                                <StringItem index="481" value="610801005"/>
+                                <StringItem index="482" value="610801003"/>
+                                <StringItem index="483" value="610905001"/>
+                                <StringItem index="484" value="610101002"/>
+                                <StringItem index="485" value="610401002"/>
+                                <StringItem index="486" value="610813002"/>
+                                <StringItem index="487" value="610906002"/>
+                                <StringItem index="488" value="610101003"/>
+                                <StringItem index="489" value="610401003"/>
+                                <StringItem index="490" value="610813003"/>
+                                <StringItem index="491" value="610906003"/>
+                                <StringItem index="492" value="610101004"/>
+                                <StringItem index="493" value="610401004"/>
+                                <StringItem index="494" value="610906004"/>
+                                <StringItem index="495" value="610813004"/>
+                                <StringItem index="496" value="611102001"/>
+                                <StringItem index="497" value="611102002"/>
+                                <StringItem index="498" value="611102003"/>
+                                <StringItem index="499" value="611102004"/>
+                                <StringItem index="500" value="611001001"/>
+                                <StringItem index="501" value="611001002"/>
+                                <StringItem index="502" value="611001003"/>
+                                <StringItem index="503" value="611001004"/>
+                                <StringItem index="504" value="611001005"/>
+                                <StringItem index="505" value="611202001"/>
+                                <StringItem index="506" value="611202002"/>
+                                <StringItem index="507" value="611202003"/>
+                                <StringItem index="508" value="110203041"/>
+                                <StringItem index="509" value="110203042"/>
+                                <StringItem index="510" value="110203043"/>
+                                <StringItem index="511" value="110203094"/>
+                                <StringItem index="512" value="110206024"/>
+                                <StringItem index="513" value="110203044"/>
+                                <StringItem index="514" value="430101001"/>
+                                <StringItem index="515" value="110206021"/>
+                                <StringItem index="516" value="120204004"/>
+                                <StringItem index="517" value="110207007"/>
+                                <StringItem index="518" value="611203002"/>
+                                <StringItem index="519" value="110203045"/>
+                                <StringItem index="520" value="110201043"/>
+                                <StringItem index="521" value="110203046"/>
+                                <StringItem index="522" value="110203047"/>
+                                <StringItem index="523" value="110203048"/>
+                                <StringItem index="524" value="110203099"/>
+                                <StringItem index="525" value="110203081"/>
+                                <StringItem index="526" value="430101004"/>
+                                <StringItem index="527" value="510101003"/>
+                                <StringItem index="528" value="510101001"/>
+                                <StringItem index="529" value="510101002"/>
+                                <StringItem index="530" value="510102003"/>
+                                <StringItem index="531" value="510102001"/>
+                                <StringItem index="532" value="510102002"/>
+                                <StringItem index="533" value="510201001"/>
+                                <StringItem index="534" value="510201002"/>
+                                <StringItem index="535" value="510201003"/>
+                                <StringItem index="536" value="510301003"/>
+                                <StringItem index="537" value="140101015"/>
+                                <StringItem index="538" value="140101009"/>
+                                <StringItem index="539" value="140101016"/>
+                                <StringItem index="540" value="140101017"/>
+                                <StringItem index="541" value="140101005"/>
+                                <StringItem index="542" value="140101014"/>
+                                <StringItem index="543" value="140101018"/>
+                                <StringItem index="544" value="140101006"/>
+                                <StringItem index="545" value="140101028"/>
+                                <StringItem index="546" value="140101021"/>
+                                <StringItem index="547" value="140101010"/>
+                                <StringItem index="548" value="140101012"/>
+                                <StringItem index="549" value="140101013"/>
+                                <StringItem index="550" value="140101001"/>
+                                <StringItem index="551" value="140101030"/>
+                                <StringItem index="552" value="140101011"/>
+                                <StringItem index="553" value="140101003"/>
+                                <StringItem index="554" value="140101002"/>
+                                <StringItem index="555" value="140101008"/>
+                                <StringItem index="556" value="140101007"/>
+                                <StringItem index="557" value="140101019"/>
+                                <StringItem index="558" value="140101004"/>
+                                <StringItem index="559" value="560101001"/>
+                                <StringItem index="560" value="420105001"/>
+                                <StringItem index="561" value="420101005"/>
+                                <StringItem index="562" value="420101004"/>
+                                <StringItem index="563" value="420101003"/>
+                                <StringItem index="564" value="420102005"/>
+                                <StringItem index="565" value="420102004"/>
+                                <StringItem index="566" value="420102003"/>
+                                <StringItem index="567" value="420104001"/>
+                                <StringItem index="568" value="820101033"/>
+                                <StringItem index="569" value="820101034"/>
+                                <StringItem index="570" value="420106001"/>
+                                <StringItem index="571" value="820101011"/>
+                                <StringItem index="572" value="820101003"/>
+                                <StringItem index="573" value="820101013"/>
+                                <StringItem index="574" value="820101012"/>
+                                <StringItem index="575" value="420106002"/>
+                                <StringItem index="576" value="830101001"/>
+                                <StringItem index="577" value="420301004"/>
+                                <StringItem index="578" value="420301003"/>
+                                <StringItem index="579" value="420201002"/>
+                                <StringItem index="580" value="420202001"/>
+                                <StringItem index="581" value="420301001"/>
+                                <StringItem index="582" value="611207002"/>
+                                <StringItem index="583" value="611301001"/>
+                                <StringItem index="584" value="610601001"/>
+                                <StringItem index="585" value="610701001"/>
+                                <StringItem index="586" value="510301002"/>
+                                <StringItem index="587" value="620601001"/>
+                                <StringItem index="588" value="660101001"/>
+                                <StringItem index="589" value="620401001"/>
+                                <StringItem index="590" value="620301001"/>
+                                <StringItem index="591" value="620201001"/>
+                                <StringItem index="592" value="630101001"/>
+                                <StringItem index="593" value="611207004"/>
+                                <StringItem index="594" value="110202006"/>
+                                <StringItem index="595" value="110203093"/>
+                                <StringItem index="596" value="110204035"/>
+                                <StringItem index="597" value="110203049"/>
+                                <StringItem index="598" value="110201044"/>
+                                <StringItem index="599" value="110201045"/>
+                                <StringItem index="600" value="110206012"/>
+                                <StringItem index="601" value="120203003"/>
+                                <StringItem index="602" value="320301001"/>
+                                <StringItem index="603" value="320103002"/>
+                                <StringItem index="604" value="650101002"/>
+                                <StringItem index="605" value="310102002"/>
+                                <StringItem index="606" value="640401001"/>
+                                <StringItem index="607" value="610907001"/>
+                                <StringItem index="608" value="610814001"/>
+                                <StringItem index="609" value="611107001"/>
+                                <StringItem index="610" value="611007001"/>
+                                <StringItem index="611" value="611207006"/>
+                                <StringItem index="612" value="140101029"/>
+                                <StringItem index="613" value="740101003"/>
+                                <StringItem index="614" value="810201002"/>
+                                <StringItem index="615" value="530103001"/>
+                                <StringItem index="616" value="340101003"/>
+                                <StringItem index="617" value="430101003"/>
+                                <StringItem index="618" value="560101003"/>
+                                <StringItem index="619" value="611207001"/>
+                                <StringItem index="620" value="210302001"/>
+                                <StringItem index="621" value="210204002"/>
+                                <StringItem index="622" value="130201001"/>
+                                <StringItem index="623" value="530104001"/>
+                                <StringItem index="624" value="140101022"/>
+                                <StringItem index="625" value="610201004"/>
+                                <StringItem index="626" value="510301001"/>
+                                <StringItem index="627" value="420301002"/>
+                                <StringItem index="628" value="620601004"/>
+                                <StringItem index="629" value="620505001"/>
+                                <StringItem index="630" value="610501001"/>
+                                <StringItem index="631" value="620101008"/>
+                                <StringItem index="632" value="610101010"/>
+                                <StringItem index="633" value="110208002"/>
+                                <StringItem index="634" value="110110002"/>
+                                <StringItem index="635" value="130202008"/>
+                                <StringItem index="636" value="410103001"/>
+                                <StringItem index="637" value="610302001"/>
+                                <StringItem index="638" value="330101007"/>
+                                <StringItem index="639" value="330201009"/>
+                                <StringItem index="640" value="730101001"/>
+                                <StringItem index="641" value="110205033"/>
+                                <StringItem index="642" value="110203050"/>
+                                <StringItem index="643" value="110101028"/>
+                                <StringItem index="644" value="611103001"/>
+                                <StringItem index="645" value="611106002"/>
+                                <StringItem index="646" value="611104001"/>
+                                <StringItem index="647" value="611106003"/>
+                                <StringItem index="648" value="611101007"/>
+                                <StringItem index="649" value="611106001"/>
+                                <StringItem index="650" value="110101049"/>
+                                <StringItem index="651" value="110101029"/>
+                                <StringItem index="652" value="110101030"/>
+                                <StringItem index="653" value="110104007"/>
+                                <StringItem index="654" value="110111001"/>
+                                <StringItem index="655" value="110203102"/>
+                                <StringItem index="656" value="610809002"/>
+                                <StringItem index="657" value="610809001"/>
+                                <StringItem index="658" value="610809003"/>
+                                <StringItem index="659" value="610809004"/>
+                                <StringItem index="660" value="120205006"/>
+                                <StringItem index="661" value="110205032"/>
+                                <StringItem index="662" value="110203051"/>
+                                <StringItem index="663" value="110101050"/>
+                                <StringItem index="664" value="110201065"/>
+                                <StringItem index="665" value="110105028"/>
+                                <StringItem index="666" value="110105016"/>
+                                <StringItem index="667" value="611204001"/>
+                                <StringItem index="668" value="110201046"/>
+                                <StringItem index="669" value="110106007"/>
+                                <StringItem index="670" value="110101031"/>
+                                <StringItem index="671" value="611207005"/>
+                                <StringItem index="672" value="110207008"/>
+                                <StringItem index="673" value="110203082"/>
+                                <StringItem index="674" value="610809005"/>
+                                <StringItem index="675" value="610809006"/>
+                                <StringItem index="676" value="610809007"/>
+                                <StringItem index="677" value="610809008"/>
+                                <StringItem index="678" value="610301001"/>
+                                <StringItem index="679" value="110101032"/>
+                                <StringItem index="680" value="110101047"/>
+                                <StringItem index="681" value="110105021"/>
+                                <StringItem index="682" value="110105010"/>
+                                <StringItem index="683" value="611206001"/>
+                                <StringItem index="684" value="611206002"/>
+                                <StringItem index="685" value="620101003"/>
+                                <StringItem index="686" value="210201001"/>
+                                <StringItem index="687" value="210201002"/>
+                                <StringItem index="688" value="210201003"/>
+                                <StringItem index="689" value="610809009"/>
+                                <StringItem index="690" value="610809010"/>
+                                <StringItem index="691" value="610809011"/>
+                                <StringItem index="692" value="110105020"/>
+                                <StringItem index="693" value="110105022"/>
+                                <StringItem index="694" value="110205012"/>
+                                <StringItem index="695" value="620601002"/>
+                                <StringItem index="696" value="120206003"/>
+                                <StringItem index="697" value="110204036"/>
+                                <StringItem index="698" value="110204037"/>
+                                <StringItem index="699" value="110204038"/>
+                                <StringItem index="700" value="110203101"/>
+                                <StringItem index="701" value="410101001"/>
+                                <StringItem index="702" value="410101002"/>
+                                <StringItem index="703" value="410102001"/>
+                                <StringItem index="704" value="410102002"/>
+                                <StringItem index="705" value="110103014"/>
+                                <StringItem index="706" value="110203052"/>
+                                <StringItem index="707" value="330101005"/>
+                                <StringItem index="708" value="330101006"/>
+                                <StringItem index="709" value="110205029"/>
+                                <StringItem index="710" value="110203053"/>
+                                <StringItem index="711" value="120204008"/>
+                                <StringItem index="712" value="110203054"/>
+                                <StringItem index="713" value="110204039"/>
+                                <StringItem index="714" value="110201047"/>
+                                <StringItem index="715" value="110201048"/>
+                                <StringItem index="716" value="110103011"/>
+                                <StringItem index="717" value="550101001"/>
+                                <StringItem index="718" value="550101005"/>
+                                <StringItem index="719" value="550101002"/>
+                                <StringItem index="720" value="550101003"/>
+                                <StringItem index="721" value="550101004"/>
+                                <StringItem index="722" value="130202007"/>
+                                <StringItem index="723" value="110105011"/>
+                                <StringItem index="724" value="110201049"/>
+                                <StringItem index="725" value="110101048"/>
+                                <StringItem index="726" value="110101033"/>
+                                <StringItem index="727" value="110101040"/>
+                                <StringItem index="728" value="110101045"/>
+                                <StringItem index="729" value="110101041"/>
+                                <StringItem index="730" value="110204040"/>
+                                <StringItem index="731" value="110105019"/>
+                                <StringItem index="732" value="110205030"/>
+                                <StringItem index="733" value="110204041"/>
+                                <StringItem index="734" value="110105024"/>
+                                <StringItem index="735" value="110203070"/>
+                                <StringItem index="736" value="110203055"/>
+                                <StringItem index="737" value="110204042"/>
+                                <StringItem index="738" value="110203075"/>
+                                <StringItem index="739" value="110201050"/>
+                                <StringItem index="740" value="110201051"/>
+                                <StringItem index="741" value="110201052"/>
+                                <StringItem index="742" value="110201053"/>
+                                <StringItem index="743" value="120201002"/>
+                                <StringItem index="744" value="110105029"/>
+                                <StringItem index="745" value="110203056"/>
+                                <StringItem index="746" value="110204043"/>
+                                <StringItem index="747" value="110203103"/>
+                                <StringItem index="748" value="110203090"/>
+                                <StringItem index="749" value="110103018"/>
+                                <StringItem index="750" value="110106004"/>
+                                <StringItem index="751" value="110106005"/>
+                                <StringItem index="752" value="110106006"/>
+                                <StringItem index="753" value="110205028"/>
+                                <StringItem index="754" value="110105012"/>
+                                <StringItem index="755" value="120204005"/>
+                                <StringItem index="756" value="110205013"/>
+                                <StringItem index="757" value="110201054"/>
+                                <StringItem index="758" value="110101044"/>
+                                <StringItem index="759" value="110204044"/>
+                                <StringItem index="760" value="110203057"/>
+                                <StringItem index="761" value="110203058"/>
+                                <StringItem index="762" value="120206002"/>
+                                <StringItem index="763" value="610811002"/>
+                                <StringItem index="764" value="610806001"/>
+                                <StringItem index="765" value="610807001"/>
+                                <StringItem index="766" value="610805002"/>
+                                <StringItem index="767" value="610810001"/>
+                                <StringItem index="768" value="610803001"/>
+                                <StringItem index="769" value="610812002"/>
+                                <StringItem index="770" value="610806004"/>
+                                <StringItem index="771" value="610812003"/>
+                                <StringItem index="772" value="610806005"/>
+                                <StringItem index="773" value="610811003"/>
+                                <StringItem index="774" value="610810002"/>
+                                <StringItem index="775" value="610807002"/>
+                                <StringItem index="776" value="610805003"/>
+                                <StringItem index="777" value="610812004"/>
+                                <StringItem index="778" value="610812005"/>
+                                <StringItem index="779" value="610806002"/>
+                                <StringItem index="780" value="610812006"/>
+                                <StringItem index="781" value="120206004"/>
+                                <StringItem index="782" value="330101004"/>
+                                <StringItem index="783" value="110204045"/>
+                                <StringItem index="784" value="110204046"/>
+                                <StringItem index="785" value="110201063"/>
+                                <StringItem index="786" value="110204055"/>
+                                <StringItem index="787" value="110206013"/>
+                                <StringItem index="788" value="110203059"/>
+                                <StringItem index="789" value="110203060"/>
+                                <StringItem index="790" value="611101001"/>
+                                <StringItem index="791" value="611101002"/>
+                                <StringItem index="792" value="611101003"/>
+                                <StringItem index="793" value="611101004"/>
+                                <StringItem index="794" value="611101005"/>
+                                <StringItem index="795" value="611101006"/>
+                                <StringItem index="796" value="610101001"/>
+                                <StringItem index="797" value="610401001"/>
+                                <StringItem index="798" value="610906001"/>
+                                <StringItem index="799" value="610813001"/>
+                                <StringItem index="800" value="611203001"/>
+                                <StringItem index="801" value="610905002"/>
+                                <StringItem index="802" value="610905003"/>
+                                <StringItem index="803" value="610905004"/>
+                                <StringItem index="804" value="610905005"/>
+                                <StringItem index="805" value="110206015"/>
+                                <StringItem index="806" value="110206014"/>
+                                <StringItem index="807" value="110204052"/>
+                                <StringItem index="808" value="110205015"/>
+                                <StringItem index="809" value="110205014"/>
+                                <StringItem index="810" value="611105001"/>
+                                <StringItem index="811" value="611105002"/>
+                                <StringItem index="812" value="611105003"/>
+                                <StringItem index="813" value="611105004"/>
+                                <StringItem index="814" value="611105005"/>
+                                <StringItem index="815" value="110204047"/>
+                                <StringItem index="816" value="611203003"/>
+                                <StringItem index="817" value="110205016"/>
+                                <StringItem index="818" value="110203061"/>
+                                <StringItem index="819" value="110205017"/>
+                                <StringItem index="820" value="110204054"/>
+                                <StringItem index="821" value="110106009"/>
+                                <StringItem index="822" value="110203062"/>
+                                <StringItem index="823" value="110206016"/>
+                                <StringItem index="824" value="120205007"/>
+                                <StringItem index="825" value="120201003"/>
+                                <StringItem index="826" value="620101006"/>
+                                <StringItem index="827" value="120205008"/>
+                                <StringItem index="828" value="120204006"/>
+                                <StringItem index="829" value="110201055"/>
+                                <StringItem index="830" value="110201056"/>
+                                <StringItem index="831" value="110201057"/>
+                                <StringItem index="832" value="110103016"/>
+                                <StringItem index="833" value="110205018"/>
+                                <StringItem index="834" value="110107005"/>
+                                <StringItem index="835" value="330201002"/>
+                                <StringItem index="836" value="620504001"/>
+                                <StringItem index="837" value="620503001"/>
+                                <StringItem index="838" value="110101034"/>
+                                <StringItem index="839" value="110107004"/>
+                                <StringItem index="840" value="610101007"/>
+                                <StringItem index="841" value="610101008"/>
+                                <StringItem index="842" value="110105014"/>
+                                <StringItem index="843" value="110205019"/>
+                                <StringItem index="844" value="110103012"/>
+                                <StringItem index="845" value="110203063"/>
+                                <StringItem index="846" value="611004001"/>
+                                <StringItem index="847" value="611004002"/>
+                                <StringItem index="848" value="611004003"/>
+                                <StringItem index="849" value="611004004"/>
+                                <StringItem index="850" value="120204007"/>
+                                <StringItem index="851" value="110204048"/>
+                                <StringItem index="852" value="110105013"/>
+                                <StringItem index="853" value="110204049"/>
+                                <StringItem index="854" value="110206017"/>
+                                <StringItem index="855" value="110109001"/>
+                                <StringItem index="856" value="110107006"/>
+                                <StringItem index="857" value="110203100"/>
+                                <StringItem index="858" value="110206027"/>
+                                <StringItem index="859" value="120207006"/>
+                                <StringItem index="860" value="110201059"/>
+                                <StringItem index="861" value="110201058"/>
+                                <StringItem index="862" value="640301001"/>
+                                <StringItem index="863" value="110101035"/>
+                                <StringItem index="864" value="611002001"/>
+                                <StringItem index="865" value="611002002"/>
+                                <StringItem index="866" value="611002003"/>
+                                <StringItem index="867" value="110101036"/>
+                                <StringItem index="868" value="611205001"/>
+                                <StringItem index="869" value="110206022"/>
+                                <StringItem index="870" value="110101037"/>
+                                <StringItem index="871" value="110202010"/>
+                                <StringItem index="872" value="110205020"/>
+                                <StringItem index="873" value="120207005"/>
+                                <StringItem index="874" value="110206018"/>
+                                <StringItem index="875" value="110108006"/>
+                                <StringItem index="876" value="611005001"/>
+                                <StringItem index="877" value="611005002"/>
+                                <StringItem index="878" value="110203076"/>
+                                <StringItem index="879" value="110205021"/>
+                                <StringItem index="880" value="330201003"/>
+                                <StringItem index="881" value="130101001"/>
+                                <StringItem index="882" value="110201060"/>
+                                <StringItem index="883" value="110203071"/>
+                                <StringItem index="884" value="611006001"/>
+                                <StringItem index="885" value="611006002"/>
+                                <StringItem index="886" value="611006003"/>
+                                <StringItem index="887" value="110203065"/>
+                                <StringItem index="888" value="110203064"/>
+                                <StringItem index="889" value="110206026"/>
+                                <StringItem index="890" value="110204050"/>
+                                <StringItem index="891" value="110203066"/>
+                                <StringItem index="892" value="110203067"/>
+                                <StringItem index="893" value="110201061"/>
+                                <StringItem index="894" value="110203068"/>
+                                <StringItem index="895" value="110105026"/>
+                                <StringItem index="896" value="110106008"/>
+                                <StringItem index="897" value="610902001"/>
+                                <StringItem index="898" value="610901001"/>
+                                <StringItem index="899" value="610901002"/>
+                                <StringItem index="900" value="610901003"/>
+                                <StringItem index="901" value="610902002"/>
+                                <StringItem index="902" value="610902003"/>
+                                <StringItem index="903" value="610901004"/>
+                                <StringItem index="904" value=""/>
+                              </StringArray>
+                            </Property>
+                          </Properties>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                          </AuxValues>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="Grupo_texto">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Verdana" size="18" style="0"/>
+                            </Property>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Component class="javax.swing.JButton" name="jButton3">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Verdana" size="14" style="0"/>
+                        </Property>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/img/left_squared_filled_50px_1.png"/>
+                        </Property>
+                        <Property name="mnemonic" type="int" value="86"/>
+                        <Property name="text" type="java.lang.String" value="Voltar"/>
+                        <Property name="toolTipText" type="java.lang.String" value="Voltar"/>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="null"/>
+                        </Property>
+                        <Property name="contentAreaFilled" type="boolean" value="false"/>
+                        <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/img/left_squared_filled_50px_3.png"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="jButton4">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Verdana" size="14" style="0"/>
+                        </Property>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/img/save_as_filled_50px_2.png"/>
+                        </Property>
+                        <Property name="mnemonic" type="int" value="83"/>
+                        <Property name="text" type="java.lang.String" value="Salvar"/>
+                        <Property name="toolTipText" type="java.lang.String" value="Salvar"/>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="null"/>
+                        </Property>
+                        <Property name="contentAreaFilled" type="boolean" value="false"/>
+                        <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/img/save_as_filled_50px.png"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="jButton5">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Verdana" size="14" style="0"/>
+                        </Property>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/img/icons8_broom_50px.png"/>
+                        </Property>
+                        <Property name="mnemonic" type="int" value="76"/>
+                        <Property name="text" type="java.lang.String" value="Limpar"/>
+                        <Property name="toolTipText" type="java.lang.String" value="LImpar os campos."/>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="null"/>
+                        </Property>
+                        <Property name="contentAreaFilled" type="boolean" value="false"/>
+                        <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/img/icons8_broom_50px_1.png"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Container class="javax.swing.JPanel" name="Painel_Preco">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                        </Property>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                            <TitledBorder title="Pre&#xe7;o">
+                              <Font PropertyName="font" name="Verdana" size="14" style="0"/>
+                            </TitledBorder>
+                          </Border>
+                        </Property>
+                        <Property name="opaque" type="boolean" value="false"/>
+                      </Properties>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                                  <Component id="Painel_Preco_AVista" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="Painel_Preco_APrazo" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="Painel_Preco_APrazo" max="32767" attributes="0"/>
+                                      <Component id="Painel_Preco_AVista" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Container class="javax.swing.JPanel" name="Painel_Preco_AVista">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
+                            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                                <TitledBorder title="AVista">
+                                  <Font PropertyName="font" name="Verdana" size="14" style="0"/>
+                                </TitledBorder>
+                              </Border>
+                            </Property>
+                          </Properties>
+
+                          <Layout>
+                            <DimensionLayout dim="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="AVista_Minimo" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                                  <Component id="AVista_Minimo_texto" max="32767" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="AVista_Lucro" min="-2" pref="87" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                                  <Component id="AVista_Lucro_texto" min="-2" pref="246" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="AVista_Venda" min="-2" pref="87" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                              <Component id="AVista_Venda_texto" min="-2" pref="248" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace pref="39" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                            <DimensionLayout dim="1">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="AVista_Venda_texto" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                                          <Component id="AVista_Venda" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="AVista_Lucro_texto" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                                          <Component id="AVista_Lucro" alignment="3" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="AVista_Minimo_texto" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                                          <Component id="AVista_Minimo" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                          </Layout>
+                          <SubComponents>
+                            <Component class="javax.swing.JTextField" name="AVista_Lucro_texto">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Verdana" size="18" style="0"/>
+                                </Property>
+                                <Property name="toolTipText" type="java.lang.String" value="Nome Completo do Cliente."/>
+                                <Property name="autoscrolls" type="boolean" value="false"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="AVista_Venda_texto">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Verdana" size="18" style="0"/>
+                                </Property>
+                                <Property name="toolTipText" type="java.lang.String" value="Nome Completo do Cliente."/>
+                                <Property name="autoscrolls" type="boolean" value="false"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="AVista_Minimo_texto">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Verdana" size="18" style="0"/>
+                                </Property>
+                                <Property name="toolTipText" type="java.lang.String" value="Nome Completo do Cliente."/>
+                                <Property name="autoscrolls" type="boolean" value="false"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="AVista_Venda">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Verdana" size="18" style="0"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="R$ Venda"/>
+                                <Property name="toolTipText" type="java.lang.String" value="Nome Completo do Cliente."/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="AVista_Lucro">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Verdana" size="18" style="0"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="R$ Lucro"/>
+                                <Property name="toolTipText" type="java.lang.String" value="Nome Completo do Cliente."/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="AVista_Minimo">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Verdana" size="18" style="0"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="R$ Minimo"/>
+                                <Property name="toolTipText" type="java.lang.String" value="Nome Completo do Cliente."/>
+                              </Properties>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Container class="javax.swing.JPanel" name="Painel_Preco_APrazo">
+                          <Properties>
+                            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                            </Property>
+                            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                                <TitledBorder title="A Prazo">
+                                  <Font PropertyName="font" name="Verdana" size="14" style="0"/>
+                                </TitledBorder>
+                              </Border>
+                            </Property>
+                          </Properties>
+
+                          <Layout>
+                            <DimensionLayout dim="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="APrazo_Lucro" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="APrazo_Minimo" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="APrazo_Venda" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="APrazo_Venda_texto" min="-2" pref="248" max="-2" attributes="0"/>
+                                                  <Component id="APrazo_Lucro_texto" min="-2" pref="248" max="-2" attributes="0"/>
+                                                  <Component id="APrazo_Minimo_texto" min="-2" pref="248" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace pref="55" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                            <DimensionLayout dim="1">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="APrazo_Venda" alignment="3" min="-2" pref="32" max="-2" attributes="0"/>
+                                          <Component id="APrazo_Venda_texto" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="APrazo_Lucro" alignment="3" max="32767" attributes="0"/>
+                                          <Component id="APrazo_Lucro_texto" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="APrazo_Minimo" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                                          <Component id="APrazo_Minimo_texto" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                            </DimensionLayout>
+                          </Layout>
+                          <SubComponents>
+                            <Component class="javax.swing.JLabel" name="APrazo_Venda">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Verdana" size="18" style="0"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="R$ Venda"/>
+                                <Property name="toolTipText" type="java.lang.String" value="Nome Completo do Cliente."/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="APrazo_Lucro">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Verdana" size="18" style="0"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="R$ Lucro"/>
+                                <Property name="toolTipText" type="java.lang.String" value="Nome Completo do Cliente."/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="APrazo_Minimo">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Verdana" size="18" style="0"/>
+                                </Property>
+                                <Property name="text" type="java.lang.String" value="R$ Minimo"/>
+                                <Property name="toolTipText" type="java.lang.String" value="Nome Completo do Cliente."/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="APrazo_Minimo_texto">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Verdana" size="18" style="0"/>
+                                </Property>
+                                <Property name="toolTipText" type="java.lang.String" value="Nome Completo do Cliente."/>
+                                <Property name="autoscrolls" type="boolean" value="false"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="APrazo_Venda_texto">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Verdana" size="18" style="0"/>
+                                </Property>
+                                <Property name="toolTipText" type="java.lang.String" value="Nome Completo do Cliente."/>
+                                <Property name="autoscrolls" type="boolean" value="false"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JTextField" name="APrazo_Lucro_texto">
+                              <Properties>
+                                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                                  <Font name="Verdana" size="18" style="0"/>
+                                </Property>
+                                <Property name="toolTipText" type="java.lang.String" value="Nome Completo do Cliente."/>
+                                <Property name="autoscrolls" type="boolean" value="false"/>
+                              </Properties>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                      </SubComponents>
+                    </Container>
+                    <Component class="javax.swing.JButton" name="jButton8">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                        </Property>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Verdana" size="12" style="0"/>
+                        </Property>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/img/icons8_delete_filled_50px_2.png"/>
+                        </Property>
+                        <Property name="mnemonic" type="int" value="68"/>
+                        <Property name="text" type="java.lang.String" value="Deletar"/>
+                        <Property name="toolTipText" type="java.lang.String" value="Deletar Cadastro"/>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="null"/>
+                        </Property>
+                        <Property name="contentAreaFilled" type="boolean" value="false"/>
+                        <Property name="horizontalAlignment" type="int" value="2"/>
+                        <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/img/icons8_delete_filled_50px_3.png"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton8ActionPerformed"/>
+                      </Events>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="jButton11">
+                      <Properties>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Verdana" size="14" style="0"/>
+                        </Property>
+                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/img/icons8_update_file_48px.png"/>
+                        </Property>
+                        <Property name="mnemonic" type="int" value="83"/>
+                        <Property name="text" type="java.lang.String" value="Atualizar"/>
+                        <Property name="toolTipText" type="java.lang.String" value="Salvar"/>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="null"/>
+                        </Property>
+                        <Property name="contentAreaFilled" type="boolean" value="false"/>
+                        <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                          <Image iconType="3" name="/img/icons8_update_file_48px_2.png"/>
+                        </Property>
+                      </Properties>
+                      <AccessibilityProperties>
+                        <Property name="AccessibleContext.accessibleDescription" type="java.lang.String" value=""/>
+                      </AccessibilityProperties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton11ActionPerformed"/>
+                      </Events>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="jButton2">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f5" green="f5" red="f5" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Verdana" size="12" style="0"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/add_50px.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Adicionar"/>
+                <Property name="toolTipText" type="java.lang.String" value="F&#xed;sica ou Juridica"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
+                <Property name="borderPainted" type="boolean" value="false"/>
+                <Property name="contentAreaFilled" type="boolean" value="false"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="opaque" type="boolean" value="true"/>
+                <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/add_50px_1.png"/>
+                </Property>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jButton2MouseEntered"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton1">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f5" green="f5" red="f5" type="rgb"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/search_50px.png"/>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value="Pesquisar"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
+                <Property name="borderPainted" type="boolean" value="false"/>
+                <Property name="contentAreaFilled" type="boolean" value="false"/>
+                <Property name="opaque" type="boolean" value="true"/>
+                <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/search_50px_1.png"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Verdana" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Pesquisar"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton6">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="f5" green="f5" red="f5" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Verdana" size="12" style="0"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/icons8_print_filled_100px.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Imprimir"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
+                <Property name="contentAreaFilled" type="boolean" value="false"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[57, 70]"/>
+                </Property>
+                <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[57, 70]"/>
+                </Property>
+                <Property name="rolloverIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/img/icons8_print_filled_100px_1.png"/>
+                </Property>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton6ActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel12">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="33" red="33" type="rgb"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="569" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Verdana" size="24" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Produtos"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JTextField" name="jtext">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Verdana" size="18" style="0"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+                <EtchetBorder>
+                  <Color PropertyName="highlight" blue="ff" green="99" red="0" type="rgb"/>
+                </EtchetBorder>
+              </Border>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jtextActionPerformed"/>
+            <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="jtextKeyReleased"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jScrollPane1" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jScrollPane1" min="-2" pref="521" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="Table">
+                  <Properties>
+                    <Property name="autoCreateRowSorter" type="boolean" value="true"/>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Verdana" size="14" style="0"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="0" rowCount="0"/>
+                    </Property>
+                    <Property name="autoscrolls" type="boolean" value="false"/>
+                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                      <Color id="Cursor Padr&#xe3;o"/>
+                    </Property>
+                    <Property name="doubleBuffered" type="boolean" value="true"/>
+                    <Property name="dragEnabled" type="boolean" value="true"/>
+                    <Property name="fillsViewportHeight" type="boolean" value="true"/>
+                    <Property name="focusCycleRoot" type="boolean" value="true"/>
+                    <Property name="focusTraversalPolicyProvider" type="boolean" value="true"/>
+                    <Property name="inheritsPopupMenu" type="boolean" value="true"/>
+                    <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                      <Dimension value="[32767, 32767]"/>
+                    </Property>
+                    <Property name="surrendersFocusOnKeystroke" type="boolean" value="true"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="TableMouseClicked"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
